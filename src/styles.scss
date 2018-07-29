@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+body{
+    margin : 0;
+    background-color: snow;
+}
+.spacer{
+    flex-grow: 1;
+}
+.spacer-foot{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.img-icon{
+    width: 54px; 
+    height: 54px;
+}
+.company-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
