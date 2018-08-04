@@ -13,11 +13,22 @@ body{
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
-.img-icon{
+.img-heading{
     width: 55px; 
-    height: 75px;
+    height: 60px;
 }
 .company-name{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
+    padding: 2mm;
+}
+.company-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style:oblique;
+    padding: 0mm;
+}
+.img-footer{
+    width: 25px; 
+    height: 25px;
 }

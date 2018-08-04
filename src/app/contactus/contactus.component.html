@@ -1,3 +1,40 @@
-<p>
-  contactus works!
-</p>
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <p class="header">Contact US</p>
+    <p class="header2">Please Submit Your Query Here...</p>
+    <fieldset>
+      <input placeholder="* Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address (optional)" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="* Your Phone Number" type="tel" tabindex="3" pattern="[0-9]{10}" required>
+    </fieldset>
+    <fieldset>
+      <!-- <input placeholder="Your Phone Number " type=SEL tabindex="3" required> -->
+      <select class="fieldset" tabindex="4" required>
+        <option value="">* Select an Option</option>
+        <option value="CCTV">CCTV Surveillances System</option>
+        <option value="Solar Panel">Solar Power Panel</option>
+        <option value="Interior Design Accessories">Interior Design Accessories</option>
+        <option value="Lamps & Lighting System">Lamps & Lighting System</option>
+        <option value="Computer Hardware & Peripherals">Computer Hardware & Peripherals</option>
+        <option value="Network Solution">Network Solution</option>
+        <option value="Wall Painting">Wall Painting</option>
+        <option value="Electrical Wiring">Electrical Wiring</option>
+        <option value="Sanitary & Plumbing Works">Sanitary & Plumbing Works</option>
+        <option value="Glass Aluminum Sliding, Door Fixing">Sanitary & Plumbing Works</option>
+        <option value="Others">Others</option>
+      </select>
+    </fieldset>
+    
+        <fieldset>
+      <textarea placeholder="* Type your message here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+   <p class="copyright">* Fields are mandatory</p>
+  </form>
+</div>
