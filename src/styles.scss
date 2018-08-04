@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
-
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+//C:\workspace\mstech-client-app\node_modules\@angular\material\prebuilt-themes\indigo-pink.css
 body{
     margin : 0;
     background-color: snow;
@@ -14,8 +14,8 @@ body{
     flex: 1 1 auto;
 }
 .img-icon{
-    width: 54px; 
-    height: 54px;
+    width: 55px; 
+    height: 75px;
 }
 .company-name{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
