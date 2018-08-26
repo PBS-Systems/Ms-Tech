@@ -12,10 +12,11 @@ export class HomeComponent implements OnInit {
 
   featured: Array<object> = [
     {
-    imgUrl: 'assets/bird2.jpg',
-  thumbImage: 'assets/bird2.jpg'
+    imgUrl: 'assets/featured-webcams.jpg'
+  
 },{
-  imgUrl: 'assets/bird2.jpg'
+  imgUrl: 'assets/Luminous-Solar-Panel-125W-12V-SDL962160460-1-da85e.jpg'
+  
   },
   {
     imgUrl: 'assets/bird2.jpg'
