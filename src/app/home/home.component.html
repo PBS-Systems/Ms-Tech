@@ -8,50 +8,41 @@
     <script>
     System.import('app').catch(console.error.bind(console));
 </script>
-<!-- <div class="grid-container"> -->
-  <mat-grid-list cols="3" rows="2" rowHeight="1:1">
-    <mat-grid-tile [colspan]="3">
-      <mat-card class="dashboard-card-2">
-        <!--<mat-card-header>
-          
-        </mat-card-header>    -->
-        <mat-card-content class="dashboard-card-content">
-            <!--<div>Card Content Here</div>-->
-            <ngbd-carousel-basic>Loading carousel...</ngbd-carousel-basic>
-          </mat-card-content>   
-      </mat-card>
-    </mat-grid-tile>
-    <mat-grid-tile [colspan]="3">
-      <mat-card>
-          <mat-card-title>
-              Featured Products
-            </mat-card-title>
-            <mat-card-content>
-              
-            </mat-card-content>
-            </mat-card> 
-    </mat-grid-tile>
-  </mat-grid-list>  
-<!-- </div> -->
 
-<!--
-<mat-card class="example-card">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>Shiba Inu</mat-card-title>
-      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-    <mat-card-content>
-      <p>
-        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-        bred for hunting.
-      </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-button>LIKE</button>
-      <button mat-button>SHARE</button>
-    </mat-card-actions>
-  </mat-card>
-  -->
+ <ngbd-carousel-basic>Loading carousel...</ngbd-carousel-basic>
+ <div class="grid-container">
+   <table>
+     <tr>
+       <td>
+         <h4>Fearuted Products</h4>
+       </td>
+     </tr>
+   </table>
+   <mat-grid-list cols=5>
+     <mat-grid-tile>
+       <mat-card>
+
+       </mat-card>
+     </mat-grid-tile>
+     <mat-grid-tile>
+        <mat-card>
+ 
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+          <mat-card>
+   
+          </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card>
+     
+            </mat-card>
+          </mat-grid-tile>
+          <mat-grid-tile>
+              <mat-card>
+       
+              </mat-card>
+            </mat-grid-tile>
+   </mat-grid-list>
+  </div>

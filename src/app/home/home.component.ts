@@ -10,7 +10,26 @@ import { map } from 'rxjs/operators';
 
 export class HomeComponent implements OnInit {
 
-
+  featured: Array<object> = [
+    {
+    imgUrl: 'assets/bird2.jpg',
+  thumbImage: 'assets/bird2.jpg'
+},{
+  imgUrl: 'assets/bird2.jpg'
+  },
+  {
+    imgUrl: 'assets/bird2.jpg'
+  
+    },
+    {
+      imgUrl: 'assets/bird2.jpg'
+    
+      },
+      {
+        imgUrl: 'assets/bird2.jpg'
+      
+        }
+]
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     map(({ matches }) => {
       if (matches) {
