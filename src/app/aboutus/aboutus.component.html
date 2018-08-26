@@ -40,10 +40,18 @@ We have successfully developed good connections with our clients which help us t
                 Locate Us
               </mat-card-title>
               <img width="50px" height="40px" src="assets/locate_us_2.png">
+              
         </mat-card-title-group>
         
         <mat-card-content>
-            
+          <!--
+          <agm-map [latitude]="lat" [longitude]="lng" style="height:200px">
+            <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+          </agm-map> -->
+
+          <div class="mapouter"><div class="gmap_canvas">
+            <iframe width="400" height="230" id="gmap_canvas" src="https://maps.google.com/maps?q=Kangula%2CAngul%2COdisha&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe></div><style>.mapouter{text-align:center;height:300px;width:400px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:400px;}</style></div>
         </mat-card-content>
       </mat-card>
         
@@ -51,10 +59,17 @@ We have successfully developed good connections with our clients which help us t
     <mat-grid-tile [colspan]="3">
       <mat-card item-width="100%">
         <mat-card-title>
-            Find Us
+            
         </mat-card-title>
         <mat-card-content>
-          Our addresses
+          <h3>Primary Location</h3>
+          <Address><h5>Kangula Godisahi <br/>Angul - 759132 <br/>Odisha , India<br/>
+            Email - malayasahu@ms-technology.co.in
+            </h5>
+          </Address>
+          <hr/>
+          <h3>We are also present at</h3>
+          <h5>Bangalore, Mumbai, Bhubaneswar</h5>
         </mat-card-content>
       </mat-card>
       </mat-grid-tile>

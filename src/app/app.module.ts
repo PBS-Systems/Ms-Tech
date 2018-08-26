@@ -19,6 +19,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {HttpClientModule} from '@angular/common/http';
 import {map} from 'rxjs/operators';
 import { FlexLayoutModule } from '@angular/flex-layout' ;
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,6 @@ import { FlexLayoutModule } from '@angular/flex-layout' ;
     FooterComponent,
     AboutusComponent,
     NgbdCarouselBasic
-    
   ],
   imports: [
     BrowserModule,
@@ -42,7 +43,10 @@ import { FlexLayoutModule } from '@angular/flex-layout' ;
     NgbModule.forRoot(),
     NgImageSliderModule,
     HttpClientModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDQIQi6H0KDy7vBQnphqOxS4Z4qQl0cpDc'
+    })
     
   ],
   providers: [],

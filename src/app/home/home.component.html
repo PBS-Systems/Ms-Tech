@@ -9,8 +9,8 @@
     System.import('app').catch(console.error.bind(console));
 </script>
 <!-- <div class="grid-container"> -->
-  <mat-grid-list cols="3" rows="1" rowHeight="1:1">
-    <mat-grid-tile [colspan]="3" [rowspan]="1">
+  <mat-grid-list cols="3" rows="2" rowHeight="1:1">
+    <mat-grid-tile [colspan]="3">
       <mat-card class="dashboard-card-2">
         <!--<mat-card-header>
           
@@ -20,6 +20,16 @@
             <ngbd-carousel-basic>Loading carousel...</ngbd-carousel-basic>
           </mat-card-content>   
       </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="3">
+      <mat-card>
+          <mat-card-title>
+              Featured Products
+            </mat-card-title>
+            <mat-card-content>
+              
+            </mat-card-content>
+            </mat-card> 
     </mat-grid-tile>
   </mat-grid-list>  
 <!-- </div> -->
