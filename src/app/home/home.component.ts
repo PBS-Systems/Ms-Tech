@@ -19,16 +19,16 @@ export class HomeComponent implements OnInit {
   
   },
   {
-    imgUrl: 'assets/bird2.jpg'
-  
+    imgUrl: 'assets/LED-Bulbs-Tube-Light2.jpg'
+    
     },
     {
-      imgUrl: 'assets/bird2.jpg'
-    
+      imgUrl: 'assets/computer_accessories-600x315.jpg'
+      
       },
       {
-        imgUrl: 'assets/bird2.jpg'
-      
+        imgUrl: 'assets/dt_tube_bulb.jpg'
+        
         }
 ]
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
