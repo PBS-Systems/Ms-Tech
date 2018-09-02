@@ -34,6 +34,7 @@
     "instamojo-nodejs": "0.0.5",
     "jquery": "^1.9.1",
     "ng-image-slider": "^1.0.1",
+    "ngx-bootstrap": "^3.0.1",
     "nodemailer": "^4.6.7",
     "popper.js": "^1.14.3",
     "rxjs": "^6.0.0",
