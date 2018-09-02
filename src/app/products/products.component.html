@@ -1,29 +1,140 @@
-<!--<p>
-  products works!
-  <ng-image-slider [images]="imageObject"></ng-image-slider>
-</p> -->
-<div class="grid-container">
-  <mat-grid-list cols="3">
-    <mat-grid-tile *ngFor="let card of cards | async" [colspan]="card.cols" [rowspan]="card.rows">
-      <mat-card class="dashboard-card-2">
-          <mat-card-title>
-              {{card.title}}
-             <!-- <button mat-icon-button class="more-button" [matMenuTriggerFor]="menu" aria-label="Toggle menu">
-                <mat-icon>more_vert</mat-icon>
-              </button>
-              <mat-menu #menu="matMenu" xPosition="before">
-                <button mat-menu-item>Expand</button>
-                <button mat-menu-item>Remove</button>
-              </mat-menu> -->
-            </mat-card-title>
-        <mat-card-content class="dashboard-card-content">
-          <div>
-            <img src="assets/bird2.jpg"  style="height: 300px; width: 400px"/>
+<div class="container-fluid">
+  <br/>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="product-jumbotron">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-7">
+              <h4 class="product-jumbotron-title">CCTV Surveillances System</h4>
+              <p class="product-jumbotron-content">We are dealing with well known brands such as Hikvision, Secureye, CP Plus, Dahua, Panasonic, Real-time, Mantra
+                , ESSL and Biomax.</p>
+              <p class="product-jumbotron-content">
+                Our exclusive range includes Wireless Video Door Phone with Night Camera, Black & White Video Door Phone with Night Vision
+                Camera, HD CCTV, Wide Variety of Resolution Lenses. These products are also used for the Official Securities;
+                Industrial Security, Schools, Malls, Multiplexes, Streets, Offices, Parks, Exhibition etc.
+
+              </p>
+              <p>
+                <a class="product-btn-primary" routerLink="/cctv" role="button">Details</a>
+              </p>
+
+            </div>
+            <div class="col-sm-5">
+              <img class="product-group-img" src="/assets/cctv-group.jpg" alt="Card image cap">
+            </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="product-jumbotron">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-7">
+              <h4 class="product-jumbotron-title">Solar Power Panel</h4>
+              <p class="product-jumbotron-content">We are a well-known Trader, Supplier and Exporter of wide variety of Solar & LED Products such as Solar CFL
+                Lights, Solar LED Lights and LED Light, Rooftop Solar Power Plant, Solar Power Packs, Solar Charge Controller.</p>
+              <p class="product-jumbotron-content">
+                Our products are appreciated for their eco-friendly attributes, easy-to-install features, low maintenance, and durability.
+                Almost every day, residences and factories across the country are using our products as their backup power.
+              </p>
+              <p>
+                <a class="product-btn-primary" href="#" role="button">Details</a>
+              </p>
+            </div>
+            <div class="col-sm-5">
+              <img class="product-group-img" src="/assets/solar-group.png" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- row 2 -->
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="product-jumbotron">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-7">
+              <h4 class="product-jumbotron-title">Lamps & Lighting System</h4>
+              <p class="product-jumbotron-content">Our expertise lies in providing the best-in-class all varieties of Lamps and Lighting such as LED Flood Lighting,
+                LED Hoarding Light, LED High Mast Lighting, LED Street Light Housing, LED High Bay Light, Aviation Lamp and
+                Light, Day and Night Sensor, Flame Proof Luminaire, Flood Lighting, Industrial Lighting and many more.</p>
+              <p class="product-jumbotron-content">
+                These products are extremely praised in the market owing to their, easy operations, longer working life, low maintenance,
+                top performance and reasonable prices.
 
-        </mat-card-content>
-      </mat-card>
-    </mat-grid-tile>
-  </mat-grid-list>
+              </p>
+              <p>
+                <a class="product-btn-primary" href="#" role="button">Details</a>
+              </p>
+            </div>
+            <div class="col-sm-5">
+              <img class="product-group-img" src="/assets/lights-group.png" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- computer hardware -->
+    <div class="col-sm-6">
+      <div class="product-jumbotron">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-7">
+              <h4 class="product-jumbotron-title">Computer Hardware & Peripherals</h4>
+              <p class="product-jumbotron-content">
+                We also deal with providing the best information technology systems & software available in India and the firm is a registered
+                dealer of leading IT brands. Backed by years of experience in IT industry and dedicated work, we have emerged
+                as Service Provider who can provide the Best Quality service and support.
+              </p>
+              <p class="product-jumbotron-content">
+                We specialize in customized network and computer services for all size companies by providing quality services. Our Engineers
+                and Technicians work to ensure our customers are getting the finest service.
 
+              </p>
+              <p>
+                <a class="product-btn-primary" href="#" role="button">Details</a>
+              </p>
+            </div>
+            <div class="col-sm-5">
+              <img class="product-group-img" src="/assets/computers-laptops-group.png" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- row  3 -->
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="product-jumbotron">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-7">
+              <h4 class="product-jumbotron-title">Interior Design Accessories</h4>
+              <p class="product-jumbotron-content">
+                We also deal with providing the best information technology systems & software available in India and the firm is a registered
+                dealer of leading IT brands. Backed by years of experience in IT industry and dedicated work, we have emerged
+                as Service Provider who can provide the Best Quality service and support.
+              </p>
+              <p class="product-jumbotron-content">
+                We specialize in customized network and computer services for all size companies by providing quality services. Our Engineers
+                and Technicians work to ensure our customers are getting the finest service.
+
+              </p>
+              <p>
+                <a class="product-btn-primary"  role="button">Details</a>
+              </p>
+            </div>
+            <div class="col-sm-5">
+              <img class="product-group-img" src="/assets/interior-group.png" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

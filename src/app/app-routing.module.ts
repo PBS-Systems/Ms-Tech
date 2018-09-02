@@ -6,6 +6,7 @@ import { ServicesComponent } from './services/services.component';
 import { PaymentsComponent } from './payments/payments.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { CctvPageComponent } from './cctv-page/cctv-page.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'aboutus',
     component: AboutusComponent
+  },
+  {
+    path: 'cctv',
+    component: CctvPageComponent
   }
 ];
 
