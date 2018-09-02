@@ -20,6 +20,8 @@ import {HttpClientModule} from '@angular/common/http';
 import {map} from 'rxjs/operators';
 import { FlexLayoutModule } from '@angular/flex-layout' ;
 import { AgmCoreModule } from '@agm/core';
+import { ProductCardComponent } from './product-card/product-card.component';
+import { CctvPageComponent } from './cctv-page/cctv-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { AgmCoreModule } from '@agm/core';
     NavBarComponent,
     FooterComponent,
     AboutusComponent,
-    NgbdCarouselBasic
+    NgbdCarouselBasic,
+    ProductCardComponent,
+    CctvPageComponent
   ],
   imports: [
     BrowserModule,

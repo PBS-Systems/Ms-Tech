@@ -11,53 +11,30 @@
 
 
  <ngbd-carousel-basic>Loading carousel...</ngbd-carousel-basic>
- <div class="grid-container">
-   <div class="mat-card-title">Featured Products</div>
-   <mat-grid-list cols=5>
-     <mat-grid-tile>
-       <mat-card>
-         <mat-card-content>
-            <div>
-                <img [src]="featured[0].imgUrl"  class=featuredImg/>
-              </div>
-         </mat-card-content>          
-       </mat-card>
-     </mat-grid-tile>
-     <mat-grid-tile>
-        <mat-card>
-            <mat-card-content>
-                <div>
-                    <img [src]="featured[1].imgUrl"  class=featuredImg/>
-                  </div>
-             </mat-card-content>
-        </mat-card>
-      </mat-grid-tile>
-      <mat-grid-tile>
-          <mat-card>
-              <mat-card-content>
-                  <div>
-                      <img [src]="featured[2].imgUrl"  class=featuredImg/>
-                    </div>
-               </mat-card-content>
-          </mat-card>
-        </mat-grid-tile>
-        <mat-grid-tile>
-            <mat-card>
-                <mat-card-content>
-                    <div>
-                        <img [src]="featured[3].imgUrl"  class=featuredImg/>
-                      </div>
-                 </mat-card-content>
-            </mat-card>
-          </mat-grid-tile>
-          <mat-grid-tile>
-              <mat-card>
-                  <mat-card-content>
-                      <div>
-                          <img [src]="featured[4].imgUrl"  class=featuredImg/>
-                        </div>
-                   </mat-card-content>
-              </mat-card>
-            </mat-grid-tile>
-   </mat-grid-list>
-  </div>
+ <br/>
+ <div class="mat-card-title" style="padding-left: 0.5cm"> Featured Products</div>
+<div class="container-fluid" style="padding: 0.5cm">
+    <div class="row">
+        <div class="card-deck">
+            <div class="card">
+                <img class="home-featured-image" [src]="featured[0].imgUrl">
+            </div>
+            <div class="card">
+                <img class="home-featured-image" [src]="featured[1].imgUrl">
+            </div>
+
+            <div class="card">
+                <img class="home-featured-image" [src]="featured[2].imgUrl">
+            </div>
+
+            <div class="card">
+                <img class="home-featured-image" [src]="featured[3].imgUrl">
+            </div>
+
+            <div class="card">
+                <img class="home-featured-image" [src]="featured[4].imgUrl">
+            </div>
+        </div>
+    </div>
+
+</div>
